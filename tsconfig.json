@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "module": "ESNext",
+      "target": "esnext",
+      "allowJs": false,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "isolatedModules": false,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "strictNullChecks": true,
+      "lib": [
+        "DOM",
+        "DOM.Iterable",
+        "ES5",
+        "ES6",
+        "ES7"
+      ]
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": ["node_modules", "build/**/*"]
+}

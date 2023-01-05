@@ -1,0 +1,54 @@
+{
+  "name": "@publishkit/cli",
+  "version": "0.0.2",
+  "description": "PublishKit CLI",
+  "main": "dist/cli.js",
+  "scripts": {
+    "dev": "yarn run rollup",
+    "rollup": "rollup -c -w",
+    "build": "NODE_ENV=prod rollup -c",
+    "build:dev": "rollup -c"
+  },
+  "bin": {
+    "pk": "dist/cli.js",
+    "publishkit": "dist/cli.js"
+  },
+  "files": [
+    "dist/cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publishkit/cli.git"
+  },
+  "author": "louis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/publishkit/cli/issues"
+  },
+  "homepage": "https://github.com/publishkit/cli#readme",
+  "dependencies": {
+    "@caporal/core": "^2.0.2",
+    "@publishkit/pklib": "^0.0.9",
+    "cli-box": "^6.0.10",
+    "jsdom": "^20.0.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@types/node": "^18.11.17",
+    "dotenv-flow": "^3.2.0",
+    "rollup-plugin-add-shebang": "^0.3.1",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-execute": "^1.1.1",
+    "rollup-plugin-node-externals": "^5.0.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  },
+  "keywords": [
+    "markdown",
+    "publishing"
+  ]
+}

@@ -28,9 +28,10 @@
   "homepage": "https://github.com/publishkit/cli#readme",
   "dependencies": {
     "@caporal/core": "^2.0.2",
-    "@publishkit/pklib": "^0.0.9",
+    "@publishkit/pklib": "link:../pk-lib",
     "cli-box": "^6.0.10",
-    "jsdom": "^20.0.3"
+    "jsdom": "^20.0.3",
+    "open": "^8.4.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",

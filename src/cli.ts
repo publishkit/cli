@@ -102,9 +102,9 @@ try {
     .command("serve", "serve site on localhost")
     .option("-p, --port", "port (default 3000")
     .action(async ({ logger, args, options }) => {
-      if (!isReady()) return noContext(logger);
+      // if (!isReady()) return noContext(logger);
       const port = options.port || "3000";
-      const server = spawn("npx", ["serve", "-p", port], {
+      const server = spawn("npx", ["http-server", "-p", port], {
         cwd: pklib.env.kit,
         stdio: "pipe",
       });

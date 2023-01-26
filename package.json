@@ -1,6 +1,6 @@
 {
   "name": "@publishkit/cli",
-  "version": "0.9.2",
+  "version": "0.9.4",
   "description": "PublishKit CLI",
   "main": "dist/cli.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/publishkit/cli#readme",
   "dependencies": {
     "@caporal/core": "^2.0.2",
-    "@publishkit/pklib": "^0.9.2",
+    "@publishkit/pklib": "^0.9.4",
     "cli-box": "^6.0.10",
     "jsdom": "^20.0.3",
     "open": "^8.4.0"

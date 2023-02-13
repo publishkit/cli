@@ -2,12 +2,12 @@
 import Clibox from "cli-box";
 
 export const banner = (pklib: ObjectAny) => {
-  const { env, version, pkrc } = pklib;
+  const { env, version, kitrc } = pklib;
   const b = ` PublishKit @ ${version}
   --------------------------------------------
   ▸ type            : ${env.type}
-  ▸ site.name       : ${pkrc.site?.name}
-  ▸ site.id         : ${pkrc.site?.id||''}`;
+  ▸ site.name       : ${kitrc.site?.name}
+  ▸ site.id         : ${kitrc.site?.id||''}`;
   box(b);
 };
 

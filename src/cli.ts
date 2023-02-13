@@ -28,8 +28,8 @@ try {
     .description("A program that does something.")
 
     .action(({ logger, args }) => {
-      if (!pklib.pkrc) {
-        logger.info("no pkrc file found");
+      if (!pklib.kitrc) {
+        logger.info("no kitrc file found");
         logger.info('run "pk init" to create a new vault');
         return;
       }
@@ -38,8 +38,8 @@ try {
 
     .command("init", "init a publishkit vault")
     .action(async ({ logger, args }) => {
-      await pklib.createPkrc();
-      logger.info("pkrc.md created");
+      await pklib.createKitrc();
+      logger.info("kitrc.md created");
     })
 
     .command("ls", "list vault files")

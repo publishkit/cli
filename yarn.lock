@@ -87,10 +87,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@publishkit/pklib@^0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@publishkit/pklib/-/pklib-0.9.4.tgz#94fce8f5870022c48123dc3a1ec47b5bee978ad9"
-  integrity sha512-UKMXos81GbifE4zAAwR0c+r3Xg45wxFme8STFW0tWN8zefcyksXI/SDVE5GxrT4I06p8bta1MGxXelwqM4R6eQ==
+"@publishkit/pklib@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@publishkit/pklib/-/pklib-0.10.0.tgz#c94077476bd1dc5f9bacef8262ed55c5cb7a28b1"
+  integrity sha512-HyFzbqpdjQy4tcDcAAsIZSlJwSKng4uGqi2YzzqUUc7UDkFBGUp7AyYuFEVPgPDTxMC3aoYhiyQRy4ZYUGQgDw==
   dependencies:
     filesize "^10.0.6"
     front-matter "^4.0.2"

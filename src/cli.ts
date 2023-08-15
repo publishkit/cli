@@ -30,7 +30,7 @@ try {
     .action(({ logger, args }) => {
       if (!pklib.kitrc) {
         logger.info("no kitrc file found");
-        logger.info('run "pk init" to create a new vault');
+        logger.info('run kit init" to create a new vault');
         return;
       }
       banner(pklib);
